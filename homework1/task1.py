@@ -7,6 +7,8 @@
 day = int(input("Введите цифру: "))
 
 if day == 6 or day == 7:
-	print("да")
+	print("выходной")
+elif day<1 or day>7:
+	print("такого дня не существует")
 else:
-	print("нет")
+	print("не выходной")
